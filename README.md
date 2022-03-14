@@ -1,4 +1,4 @@
-# Character-Model
+# Character_Model
 # Overview -
 This project tests to see if an LSTM neural net can continue a passage of text using character prediction.
 The code is split into 2 sections, a training/testing loop and then a sampling
@@ -25,4 +25,5 @@ Generated text: y country good. KING RICHARD. Thou shall be now, and make him
                 indeed of your son, and that I stand a
 
 This demonstrates that while all the words are real and the grammar just about
-works, it is meaningless text.
+works, it is meaningless text. It also has a bias towards more common words,
+explaining the lack of meaning.
